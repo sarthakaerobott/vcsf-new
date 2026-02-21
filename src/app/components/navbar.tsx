@@ -19,7 +19,7 @@ export function Navbar() {
         { name: "Home", path: "#home" },
         { name: "About Us", path: "#about" },
         { name: "Vision", path: "#vision" },
-        { name: "Mission", path: "#mission" },
+        // { name: "Mission", path: "#mission" },
         { name: "What We Do", path: "#what-we-do" },
         { name: "Success Stories", path: "#success-stories" },
         { name: "Why Trust Us", path: "#why-trust-us" },
@@ -45,9 +45,10 @@ export function Navbar() {
                                 className="w-full h-full object-contain p-1"
                             />
                         </div>
-                        <span className={`text-xl font-bold tracking-tight whitespace-nowrap transition-colors duration-300 ${scrolled ? "text-[#0F2C59]" : "text-white"
+                        <span className={`text-lg sm:text-xl font-bold tracking-tight whitespace-nowrap transition-colors duration-300 ${scrolled ? "text-[#0F2C59]" : "text-white"
                             }`}>
                             Vaishya <span className="text-[#D4AF37]">Community</span>
+                            <span className="hidden md:inline"> Startup Foundations</span>
                         </span>
                     </a>
 

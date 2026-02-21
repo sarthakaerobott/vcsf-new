@@ -123,7 +123,7 @@ function HeroSlide({ image, heading, subheading, onDonateClick, onContactClick, 
                 className="px-8 py-3 bg-transparent text-white border-2 border-white rounded-[10px] hover:bg-white hover:text-[#0F2C59] transition-all duration-200 hover:-translate-y-1 shadow-md hover:shadow-lg min-w-[200px]"
                 style={{ fontWeight: 600 }}
               >
-                Donate / Support
+                Support Us
               </button>
               <button
                 onClick={onContactClick}
@@ -253,9 +253,9 @@ export function HeroSection() {
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
               onClick={(e) => e.stopPropagation()}
             >
-              <h3 className="text-[#0F2C59] text-xl mb-1" style={{ fontWeight: 700 }}>
+              {/* <h3 className="text-[#0F2C59] text-xl mb-1" style={{ fontWeight: 700 }}>
                 Donate via UPI
-              </h3>
+              </h3> */}
               <p className="text-gray-500 text-sm mb-4">Scan the QR code with any UPI app</p>
               <img
                 src="/assets/PNB QR_page-0001.jpg"

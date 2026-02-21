@@ -7,7 +7,7 @@ export function Footer() {
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Column 1: Logo & Mission */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-12 h-12 bg-white rounded-full overflow-hidden flex items-center justify-center shadow-lg p-1.5">
                 <img
@@ -20,7 +20,7 @@ export function Footer() {
                 Vaishya <span className="text-[#D4AF37]">Community</span>
               </span>
             </div>
-            <p className="text-white/80 leading-relaxed">
+            <p className="text-white/80 leading-relaxed max-w-sm">
               Building unity through education, entrepreneurship, and service.
             </p>
           </div>

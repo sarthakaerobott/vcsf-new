@@ -44,7 +44,7 @@ export function CallToAction() {
                 className="px-10 py-4 bg-transparent text-white border-2 border-white rounded-xl hover:bg-white hover:text-[#0F2C59] transition-all duration-300 shadow-2xl min-w-[220px]"
                 style={{ fontWeight: 600, fontSize: "1.125rem" }}
               >
-                Donate Now
+                Support Us
               </motion.button>
             </div>
           </motion.div>
@@ -69,9 +69,9 @@ export function CallToAction() {
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
               onClick={(e) => e.stopPropagation()}
             >
-              <h3 className="text-[#0F2C59] text-xl mb-1" style={{ fontWeight: 700 }}>
+              {/* <h3 className="text-[#0F2C59] text-xl mb-1" style={{ fontWeight: 700 }}>
                 Donate via UPI
-              </h3>
+              </h3> */}
               <p className="text-gray-500 text-sm mb-4">Scan the QR code with any UPI app</p>
               <img
                 src="/assets/PNB QR_page-0001.jpg"
